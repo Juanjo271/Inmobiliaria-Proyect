@@ -3,7 +3,8 @@ import "../styles/body.css";
 
 function Body() {
   return (
-    <div className="hero-section">
+   <div className="hero-section">
+    {/*1mer container*/}
       <div className="container d-flex flex-column align-items-center justify-content-center h-100">
         <div className="p-4 p-md-5  text-white bg-opacity">
           <div className="col-lg-12 px-0">
@@ -22,6 +23,7 @@ function Body() {
         </div>
       </div>
     </div>
+
   );
 }
 
